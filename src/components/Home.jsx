@@ -1,7 +1,7 @@
 import React from "react";
-import { HiArrowNarrowRight } from "react-icons/hi";
+// import { HiArrowNarrowRight } from "react-icons/hi";
 import me from "../assets/me.jpg";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 import "./home.css";
 
 const Home = () => {
@@ -16,11 +16,18 @@ const Home = () => {
             I'm a Web Developer | Programmer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-           Currently Pursuing Btech From Noida Institute of ENgineering and Technology,Greater Noida in CSE with specialisation in Data SCience
+            Currently Pursuing Btech From Noida Institute of ENgineering and
+            Technology,Greater Noida in CSE with specialisation in Data SCience
           </p>
           <div className='className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer shadow-md hover:scale-105 duration-500"'>
-
-          <a href="https://drive.google.com/file/d/1eyzWXsFYneQLcHEou_dvJn0WNzQXkBEu/view" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Resume</a>
+            <a
+              href="https://drive.google.com/file/d/1eyzWXsFYneQLcHEou_dvJn0WNzQXkBEu/view"
+              class="btn btn-primary btn-lg active"
+              role="button"
+              aria-pressed="true"
+            >
+              Resume
+            </a>
           </div>
           {/* <button type="button" class="btn btn-primary">Resume</button> */}
           {/* <div>
@@ -55,7 +62,7 @@ const Home = () => {
           <img
             src={me}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full shadow-md hover:scale-105 duration-500" 
+            className="rounded-2xl mx-auto w-2/3 md:w-full shadow-md hover:scale-105 duration-500"
           />
         </div>
       </div>
